@@ -1,0 +1,382 @@
+/* Styles for small devices */
+@media (max-width: 767px) {
+
+    /* responsive navbar section */
+    nav {
+        flex-direction: column;
+        justify-content: center;
+        padding: 30px 0px;
+    }
+
+    .nav-right>ul {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    nav .nav-right>ul li {
+        margin: 10px 0px;
+    }
+
+    /* responsive banner section */
+    .banner-section {
+        flex-direction: column-reverse;
+        padding: 20px 30px;
+    }
+
+    .banner-description {
+        width: 100%;
+        padding-left: 0px;
+        padding-top: 0px;
+        background: #faecfa;
+    }
+
+    .banner {
+        padding: 50px 40px;
+    }
+
+    .banner-heading {
+        font-size: 2rem;
+    }
+
+    .banner-sub-heading {
+        font-size: 3rem;
+    }
+
+    .left-btn,
+    .right-btn {
+        margin: 30px 5px;
+        padding: 10px 15px;
+        border-radius: 30px;
+        font-size: 1rem;
+    }
+
+    .fa-circle-play,
+    .fa-download,
+    .fa-chess-pawn {
+        margin: 0;
+    }
+
+    .banner-profile {
+        width: 100%;
+    }
+
+    /* responsive gamer section */
+    .geamer-section {
+        flex-direction: column;
+        padding: 0px 0px;
+    }
+
+    .geamer-dexcription {
+        width: 100%;
+        padding-right: 0px;
+        text-align: center;
+    }
+
+    .gamer {
+        padding: 0px 30px;
+    }
+
+    .gamer-text {
+        text-align: center;
+        font-size: 1rem;
+    }
+
+    .gamer-sub-two {
+        font-size: 1.4rem;
+    }
+
+    .geamer-profile {
+        width: 100%;
+    }
+
+    .geamer-profile img {
+        padding-left: 0px;
+    }
+
+    /* responsive videos section */
+    .vides-section {
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-bottom: 0px;
+    }
+
+    .videos-inner {
+        flex-direction: column;
+        padding: 0px 20px;
+    }
+
+    .vaides-inner-item {
+        margin: 0;
+        width: 100%;
+    }
+
+    .videos-heading {
+        font-size: 1.9rem;
+    }
+
+    .videos-text {
+        font-size: .9rem;
+        padding: 20px 0px;
+    }
+
+    .video-bottom {
+        flex-direction: column-reverse;
+    }
+
+    .video-bottom-profile {
+        width: 100%;
+        padding: 0px 50px;
+        margin-top: 0px;
+    }
+
+    .video-b-one {
+        max-width: 350px;
+    }
+
+    .videob-two {
+        position: absolute;
+        max-width: 150px;
+    }
+
+    .video-bottom-heading {
+        font-size: 2rem;
+        font-weight: 700;
+        line-height: 40px;
+        padding: 0;
+        margin: 0;
+    }
+
+    .video-bottom-description {
+        width: 100%;
+        text-align: center;
+        padding: 20px 20px;
+        font-size: 1rem;
+    }
+
+    /* game group section responsive */
+    .game-group-section {
+        grid-template-columns: 1fr 1fr;
+        padding: 60px 20px;
+    }
+
+    /* footer section responsive */
+    .footer-content-middle {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .footer-content-middle a {
+        margin-top: 20px;
+        font-size: 1rem;
+    }
+
+    .footer-content-bottom {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .footer-text {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .footer-text a {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+}
+
+/* Styles for medium devices */
+@media (min-width: 768px) and (max-width: 991px) {
+
+    /* responsive navbar section */
+    nav {
+        flex-direction: column;
+        justify-content: center;
+        padding: 30px 0px;
+    }
+
+    .nav-right>ul {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    nav .nav-right>ul li {
+        margin: 10px 0px;
+    }
+
+    /* responsive banner section */
+    .banner-section {
+        flex-direction: column-reverse;
+    }
+
+    .banner-description {
+        width: 100%;
+        padding: 20px 40px;
+        background: #faecfa;
+        margin-top: 20px;
+    }
+
+    .left-btn,
+    .right-btn {
+        margin: 30px 5px;
+        padding: 15px 20px;
+        border-radius: 30px;
+        font-size: 1rem;
+    }
+
+    .banner-profile {
+        width: 100%;
+    }
+
+    /* responsive gamer section */
+    .geamer-section {
+        flex-direction: column;
+        padding: 10px 0px;
+    }
+
+    .geamer-dexcription {
+        width: 100%;
+        padding-right: 0px;
+        text-align: center;
+    }
+
+    .gamer {
+        padding: 0px 30px;
+    }
+
+    .gamer-text {
+        text-align: center;
+        font-size: 1rem;
+    }
+
+    .gamer-sub-two {
+        font-size: 1.4rem;
+    }
+
+    .geamer-profile {
+        width: 100%;
+    }
+
+    .geamer-profile img {
+        padding-left: 0px;
+    }
+
+    /* responsive videos section */
+
+    .videos-inner {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding: 0px 50px;
+    }
+
+    .vaides-inner-item {
+        width: 100%;
+    }
+
+    .video-bottom {
+        flex-direction: column-reverse;
+        padding: 0px 100px;
+    }
+
+    .video-bottom-profile {
+        width: 100%;
+        padding: 0px 50px;
+        margin-top: 0px;
+    }
+
+    .video-b-one {
+        max-width: 500px;
+    }
+
+    .videob-two {
+        position: absolute;
+        max-width: 300px;
+    }
+
+    .video-bottom-heading {
+        font-size: 3rem;
+        font-weight: 700;
+        line-height: 60px;
+        padding: 0;
+        margin: 0;
+    }
+
+    .video-bottom-description {
+        width: 100%;
+        text-align: center;
+        padding: 20px 20px;
+        font-size: 1.5rem;
+    }
+
+    /* game group section responsive */
+    .game-group-section {
+        grid-template-columns: 1fr 1fr 1fr;
+        padding: 60px 20px;
+    }
+
+
+}
+
+/* Styles for large devices */
+@media (min-width: 992px) and (max-width: 1400px) {
+
+    /* responsive navbar section */
+    nav {
+        padding: 30px 100px;
+    }
+
+    /* responsive banner section */
+    .banner-section {
+        justify-content: space-around;
+        align-items: center;
+        padding-left: 10px;
+    }
+
+    .fa-circle-play,
+    .fa-download,
+    .fa-chess-pawn {
+        margin: 0;
+    }
+
+    .left-btn,
+    .right-btn {
+        margin: 20px 10px;
+        padding: 15px 20px;
+        border-radius: 30px;
+        font-size: 1rem;
+    }
+
+    /* responsive gamer section */
+    .geamer-section {
+        padding: 50px 50px;
+    }
+
+    .geamer-profile img {
+        padding-left: 0px;
+    }
+
+    .geamer-dexcription {
+        padding-bottom: 0px;
+    }
+
+    /* responsive video section */
+    .video-bottom {
+        width: 100%;
+        display: flex;
+        justify-content: start;
+        align-items: start;
+    }
+
+    .video-b-one {
+        max-width: 650px;
+    }
+
+    .videob-two {
+        position: absolute;
+        max-width: 200px;
+        left: 60%;
+        top: 60%;
+    }
+}
